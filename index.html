@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dynamic Product Grid Website</title>
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="#">BrandLogo</a>
+    </div>
+    <nav class="nav-menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="search-cart">
+      <input type="text" placeholder="Search products..." class="search-bar" />
+      <div class="cart-icon">
+        <a href="#">
+          <span class="cart-count">0</span>
+          🛒
+        </a>
+      </div>
+      <div class="hamburger" id="hamburger">&#9776;</div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Biggest Sale of the Year!</h1>
+      <p>Up to 50% off on selected items.</p>
+      <a href="#" class="cta-button">Shop Now</a>
+    </div>
+  </section>
+
+  <section class="product-grid">
+    <div class="grid-container" id="productGrid">
+      <!-- Dynamic product cards will be inserted here -->
+    </div>
+  </section>
+
+  <script src="scripts/app.js"></script>
+</body>
+</html>
