@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Product Details</title>
+    <title>Product List</title>
     <link rel="stylesheet" href="styles/main.css" />
 </head>
 <body>
@@ -14,7 +14,7 @@
         <nav class="nav-menu">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="index.html">Products</a></li>
+                <li><a href="list.html">Products</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
@@ -31,10 +31,12 @@
         </div>
     </header>
 
-    <main id="detailContainer">
-        <!-- Product details will be dynamically loaded here -->
-    </main>
+    <section class="product-list">
+        <div class="list-container" id="productList">
+            <!-- Dynamic product list will be inserted here -->
+        </div>
+    </section>
 
-    <script src="scripts/product.js"></script>
+    <script src="scripts/list.js"></script>
 </body>
 </html>
